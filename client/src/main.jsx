@@ -10,7 +10,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <ThirdwebProvider desiredChainId={ChainId.BinanceSmartChainMainnet}> 
+  <ThirdwebProvider desiredChainId={ChainId.BinanceSmartChainTestnet}> 
     <Router>
       <StateContextProvider>
         <App />

@@ -88,7 +88,7 @@ const CampaignDetails = () => {
                 {donators.length > 0 ? donators.map((item, index) => (
                   <div key={`${item.donator}-${index}`} className="flex justify-between items-center gap-4">
                     <p className="font-epilogue font-normal text-[16px] text-[#b2b3bd] leading-[26px] break-ll">{index + 1}. {item.donator}</p>
-                    <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] break-ll">{item.donation}</p>
+                    <p className="font-epilogue font-normal text-[16px] text-[#FF9C00] leading-[26px] break-ll">{item.donation}</p>
                   </div>
                 )) : (
                   <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] text-justify">No donators yet. Be the first one!</p>
@@ -116,7 +116,7 @@ const CampaignDetails = () => {
 
               <div className="my-[20px] p-4 bg-[#13131a] rounded-[10px]">
                 <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">Back it because you believe in it.</h4>
-                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-[#808191]">Support the project for no reward, just because it speaks to you.</p>
+                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-[#808191]">Support this Person for no reward, just because it speaks to you.</p>
               </div>
 
               <CustomButton 
